@@ -15,7 +15,7 @@ const getStatusColor = (status) => {
   }
 };
 
-const viewFeedbacks = () => {
+const ViewFeedbacks = () => {
   const [feedbacks, setFeedbacks] = useState([]);
 
   const fetchFeedbacks = async () => {
@@ -73,4 +73,4 @@ const viewFeedbacks = () => {
   );
 };
 
-export default viewFeedbacks;
+export default ViewFeedbacks;
