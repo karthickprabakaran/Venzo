@@ -5,8 +5,7 @@ A modern, full-stack feedback management application designed to streamline the 
 ## Live Demo
 
 **Frontend:** [Experience Live App](https://venzo-frontend.web.app/)  
-https://venzo-frontend.web.app/
-**Backend API:** [https://venzo-x5v3.onrender.com/api/](https://venzo-x5v3.onrender.com/api/) (Only For PostMan)
+**Backend API:** [API Endpoint](https://venzo-x5v3.onrender.com/api/) (For API Testing)
 
 ## Table of Contents
 
@@ -214,11 +213,20 @@ npm run build
 firebase deploy
 ```
 
+### Backend Deployment (Render)
+1. Connect your GitHub repository to Render
+2. Configure environment variables in Render dashboard
+3. Deploy automatically on push to main branch### Backend Deployment (Render)
+1. Connect your GitHub repository to Render
+2. Configure environment variables in Render dashboard
+3. Deploy automatically on push to main branch
 
 ### Environment Variables
 Ensure these variables are set in your deployment environment:
 - `MONGODB_URI` - MongoDB connection string
 - `PORT` - Server port (usually set automatically by hosting provider)
+- `NODE_ENV` - Set to 'production' for production builds
+- `NODE_ENV` - Set to 'production' for production builds
 
 </details>
 
@@ -239,3 +247,4 @@ Ensure these variables are set in your deployment environment:
 
 ---
 
+**Built as part of a coding assessment - demonstrating full-stack development skills with modern technologies.**
