@@ -20,7 +20,7 @@ const FeedbackForm = () => {
       await new Promise(resolve => setTimeout(resolve, 1500));
 
 
-      const response = await axios.post("http://localhost:5001/api/feedbacks", {
+      const response = await axios.post("https://venzo-x5v3.onrender.com/api/feedbacks", {
         title,
         description,
         category,

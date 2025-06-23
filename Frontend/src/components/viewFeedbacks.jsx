@@ -24,7 +24,7 @@ const ViewFeedbacks = () => {
   const fetchFeedbacks = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:5001/api/feedbacks");
+      const res = await axios.get("https://venzo-x5v3.onrender.com/api/feedbacks");
       setFeedbacks(res.data);
     } catch (err) {
       console.error("Error fetching feedbacks:", err);
@@ -35,7 +35,7 @@ const ViewFeedbacks = () => {
 
   const handleUpvote = async (id) => {
     try {
-      await axios.patch(`http://localhost:5001/api/feedbacks/${id}/upvote`);
+      await axios.patch(`https://venzo-x5v3.onrender.com/api/feedbacks/${id}/upvote`);
       fetchFeedbacks();
     } catch (err) {
       console.error("Error upvoting feedback:", err);
@@ -143,7 +143,7 @@ const ViewFeedbacks = () => {
                   {/* Upvote Button */}
                   <button
                     onClick={() => handleUpvote(fb._id)}
-                    className="flex flex-col items-center  bg-white px-3 py-2 rounded-lg text-indigo-600 border border-indigo-200 shadow-sm hover:scale-105 transition-transform"
+                    className="flex flex-col items-center  bg-blue-600  px-3 py-2 rounded-lg text-indigo-600 border border-indigo-200 shadow-sm hover:scale-105 transition-transform"
                   >
                     <svg className="w-5 h-5 mb-1" fill="white" viewBox="0 0 20 20">
                       <path

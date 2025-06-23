@@ -8,7 +8,7 @@ const Admins = () => {
   const fetchFeedbacks = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:5001/api/feedbacks");
+      const res = await axios.get("https://venzo-x5v3.onrender.com/api/feedbacks");
       setFeedbacks(res.data);
     } catch (err) {
       console.error("Error fetching feedbacks:", err);
@@ -19,7 +19,7 @@ const Admins = () => {
 
   const updateStatus = async (id, newStatus) => {
     try {
-      await axios.patch(`http://localhost:5001/api/feedbacks/${id}/status`, {
+      await axios.patch(`https://venzo-x5v3.onrender.com/api/feedbacks/${id}/status`, {
         status: newStatus,
       });
       fetchFeedbacks();
