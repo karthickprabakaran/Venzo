@@ -16,7 +16,7 @@ A full-stack feedback management application for collecting, viewing, and managi
 
 ## 🚀 Hosted Demo
 
-Frontend: [https://venzo-frontend.web.app/](https://venzo-frontend.web.app/)
+Frontend: [[https://venzo-frontend.web.app/](https://venzo-frontend.web.app/)](https://venzo-frontend.web.app/)
 Backend API: [https://venzo-x5v3.onrender.com/api/](https://venzo-x5v3.onrender.com/api/)
 
 ---
