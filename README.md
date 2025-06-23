@@ -246,5 +246,6 @@ Ensure these variables are set in your deployment environment:
 </details>
 
 ---
-
+Thank You
+Thank you for taking the time to review my submission. This project represents my passion for creating intuitive, scalable web applications and demonstrates my commitment to writing clean, maintainable code. I'm excited about the possibility of bringing this same level of dedication and technical expertise to your team.
 **Built as part of a coding assessment - demonstrating full-stack development skills with modern technologies.**
